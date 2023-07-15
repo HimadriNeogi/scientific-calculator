@@ -166,7 +166,7 @@ void square()
     double a,sq;
     printf("Enter any number:");
     scanf("%lf",&a);
-    sq=a*=2;
+    sq=pow(a,2);
     printf("Square of the number=%lf",sq);
 }
 void cube()
@@ -174,7 +174,7 @@ void cube()
     double a,cb;
     printf("Enter any number:");
     scanf("%lf",&a);
-    cb=a*=2;
+    cb=pow(a,3);
     printf("Cube of the number=%lf",cb);
 }
 void power()
